@@ -21,6 +21,10 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: target1
+          variation: "true"
   - flag:
       name: ff1
       identifier: ff1
@@ -42,5 +46,9 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: target1
+          variation: "true"
   projectIdentifier: gitextest1
   orgIdentifier: default
