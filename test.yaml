@@ -50,5 +50,26 @@ featureFlags:
         - targets:
           - identifier: target1
           variation: "true"
+  - flag:
+      name: test4laura
+      identifier: test4laura
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: gitextest1
   orgIdentifier: default
