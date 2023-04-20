@@ -1,1 +1,25 @@
-
+featureFlags:
+  flags:
+  - flag:
+      name: qq
+      identifier: qq
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: qq
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
+  projectIdentifier: mfeenv
+  orgIdentifier: default
