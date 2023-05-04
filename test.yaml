@@ -1,4 +1,4 @@
-featureFlagssss:
+featureFlags:
   flags:
   - flag:
       name: ff
@@ -20,7 +20,7 @@ featureFlagssss:
         default:
           onVariation: "true"
           offVariation: "false"
-        state: "off"
+        state: "on"
         targetRules:
         - targets:
           - identifier: target1
