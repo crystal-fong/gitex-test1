@@ -24,7 +24,7 @@ featureFlags:
         targetRules:
         - targets:
           - identifier: target1
-          variation: "true"
+          variation: "false"
   - flag:
       name: ff1
       identifier: ff1
