@@ -71,9 +71,5 @@ featureFlags:
           onVariation: "true"
           offVariation: "false"
         state: "on"
-        targetRules:
-        - targets:
-          - identifier: target1
-          variation: "false"
   projectIdentifier: gitextest1
   orgIdentifier: default
