@@ -49,7 +49,7 @@ featureFlags:
         targetRules:
         - targets:
           - identifier: target1
-          variation: "true"
+          variation: "false"
   - flag:
       name: test4laura
       identifier: test4laura
