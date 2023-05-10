@@ -66,6 +66,6 @@ featureFlags:
         targetRules:
         - targets:
           - identifier: target1
-          variation: "true"
+          variation: "false"
   projectIdentifier: gitextest1
   orgIdentifier: default
