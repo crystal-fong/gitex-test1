@@ -1,27 +1,6 @@
 featureFlags:
   flags:
   - flag:
-      name: ff
-      identifier: ff
-      description: ""
-      permanent: false
-      spec:
-        type: boolean
-        default:
-          onVariation: "true"
-          offVariation: "false"
-        variations:
-        - identifier: "true"
-          value: "true"
-        - identifier: "false"
-          value: "false"
-      environments:
-      - identifier: env1
-        default:
-          onVariation: "true"
-          offVariation: "false"
-        state: "on"
-  - flag:
       name: ff1
       identifier: ff1
       description: ""
