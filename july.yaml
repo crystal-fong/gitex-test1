@@ -22,6 +22,27 @@ featureFlags:
           offVariation: "false"
         state: "off"
   - flag:
+      name: ff5
+      identifier: ff5
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: a
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: flagA
       identifier: flagA
       description: ""
