@@ -3,7 +3,7 @@ featureFlags:
   - flag:
       name: ff1
       identifier: ff1
-      description: ""
+      description: new desc
       permanent: false
       spec:
         type: boolean
