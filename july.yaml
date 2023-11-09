@@ -24,7 +24,7 @@ featureFlags:
   - flag:
       name: nov
       identifier: nov
-      description: ""
+      description: sfdsf
       permanent: false
       spec:
         type: boolean
