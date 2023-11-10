@@ -1,9 +1,9 @@
 featureFlags:
   flags:
   - flag:
-      name: tenthNov
+      name: 'tenthNovember '
       identifier: tenthNov
-      description: ""
+      description: testing desc
       permanent: false
       spec:
         type: boolean
