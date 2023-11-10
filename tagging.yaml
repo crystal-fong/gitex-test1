@@ -1,6 +1,21 @@
 featureFlags:
   flags:
   - flag:
+      name: getShipDone
+      identifier: getShipDone
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+  - flag:
       name: 'tenthNovember '
       identifier: tenthNov
       description: 1253 testing description again
