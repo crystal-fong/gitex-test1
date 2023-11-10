@@ -46,6 +46,21 @@ featureFlags:
         - identifier: "false"
           value: "false"
   - flag:
+      name: knowYourCustomer
+      identifier: knowYourCustomer
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+  - flag:
       name: rememberTheHuman
       identifier: rememberTheHuman
       description: ""
