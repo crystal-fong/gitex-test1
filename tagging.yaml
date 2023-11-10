@@ -1,6 +1,21 @@
 featureFlags:
   flags:
   - flag:
+      name: beBold
+      identifier: beBold
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+  - flag:
       name: celebrateTogether
       identifier: celebrateTogether
       description: ""
