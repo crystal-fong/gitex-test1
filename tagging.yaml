@@ -3,7 +3,7 @@ featureFlags:
   - flag:
       name: 'tenthNovember '
       identifier: tenthNov
-      description: testing desc
+      description: testing description again
       permanent: false
       spec:
         type: boolean
