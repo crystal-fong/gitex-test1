@@ -15,6 +15,12 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: celebrateTogether
       identifier: celebrateTogether
@@ -30,6 +36,12 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: fridayFlag
       identifier: fridayFlag
@@ -45,6 +57,12 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: getShipDone
       identifier: getShipDone
@@ -60,6 +78,12 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: knowYourCustomer
       identifier: knowYourCustomer
@@ -75,6 +99,12 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: rememberTheHuman
       identifier: rememberTheHuman
@@ -90,6 +120,12 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: 'tenthNovember '
       identifier: tenthNov
@@ -105,5 +141,11 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: test
   orgIdentifier: default
