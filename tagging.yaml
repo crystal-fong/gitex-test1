@@ -43,27 +43,6 @@ featureFlags:
           offVariation: "false"
         state: "off"
   - flag:
-      name: fridayFlag
-      identifier: fridayFlag
-      description: ""
-      permanent: false
-      spec:
-        type: boolean
-        default:
-          onVariation: "false"
-          offVariation: "false"
-        variations:
-        - identifier: "true"
-          value: "true"
-        - identifier: "false"
-          value: "false"
-      environments:
-      - identifier: env1
-        default:
-          onVariation: "false"
-          offVariation: "false"
-        state: "off"
-  - flag:
       name: getShipDone
       identifier: getShipDone
       description: ""
