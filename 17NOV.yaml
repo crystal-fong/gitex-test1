@@ -15,5 +15,20 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+  - flag:
+      name: 17NovFlag
+      identifier: NovFlag
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
   projectIdentifier: crystaltest
   orgIdentifier: default
