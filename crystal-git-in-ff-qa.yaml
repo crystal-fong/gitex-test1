@@ -21,5 +21,26 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "on"
+  - flag:
+      name: flagWithTag
+      identifier: flagWithTag
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: crystalgit
   orgIdentifier: default
