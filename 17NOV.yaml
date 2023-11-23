@@ -63,7 +63,7 @@ featureFlags:
   - flag:
       name: test23Nov
       identifier: test23Nov
-      description: ""
+      description: editing 23 nov
       permanent: false
       spec:
         type: boolean
