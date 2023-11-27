@@ -98,5 +98,10 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: tg2
+          - identifier: tg4
+          variation: "true"
   projectIdentifier: crystalgit
   orgIdentifier: default
