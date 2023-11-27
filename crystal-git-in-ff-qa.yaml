@@ -36,6 +36,13 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      tags:
+      - tag:
+          name: tag1
+          identifier: tag1
+      - tag:
+          name: newONE
+          identifier: newONE
       environments:
       - identifier: env1
         default:
@@ -57,6 +64,34 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: sfsdfdsdfs
+      identifier: sfsdfdsdfs
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      tags:
+      - tag:
+          name: november27
+          identifier: november27
+      - tag:
+          name: newONE
+          identifier: newONE
       environments:
       - identifier: env1
         default:
