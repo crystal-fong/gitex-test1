@@ -87,23 +87,11 @@ featureFlags:
           value: "false"
       tags:
       - tag:
-          name: november27
-          identifier: november27
-      - tag:
-          name: tag3
-          identifier: tag3
-      - tag:
           name: tag2
           identifier: tag2
       - tag:
-          name: newONE
-          identifier: newONE
-      - tag:
           name: tag4
           identifier: tag4
-      - tag:
-          name: "121212"
-          identifier: "121212"
       - tag:
           name: tag5
           identifier: tag5
