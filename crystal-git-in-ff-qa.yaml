@@ -71,6 +71,31 @@ featureFlags:
           offVariation: "false"
         state: "off"
   - flag:
+      name: 28nov
+      identifier: nov
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      tags:
+      - tag:
+          name: november28
+          identifier: november28
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: sfsdfdsdfs
       identifier: sfsdfdsdfs
       description: ""
