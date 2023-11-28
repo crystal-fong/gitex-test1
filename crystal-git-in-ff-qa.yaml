@@ -87,6 +87,9 @@ featureFlags:
           value: "false"
       tags:
       - tag:
+          name: november27
+          identifier: november27
+      - tag:
           name: tag12
           identifier: tag12
       - tag:
