@@ -64,6 +64,13 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      tags:
+      - tag:
+          name: november27
+          identifier: november27
+      - tag:
+          name: hi
+          identifier: hi
       environments:
       - identifier: env1
         default:
