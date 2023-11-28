@@ -87,11 +87,41 @@ featureFlags:
           value: "false"
       tags:
       - tag:
+          name: tag12
+          identifier: tag12
+      - tag:
+          name: tag11
+          identifier: tag11
+      - tag:
+          name: tag8
+          identifier: tag8
+      - tag:
+          name: tag9
+          identifier: tag9
+      - tag:
+          name: tag6
+          identifier: tag6
+      - tag:
           name: tag2
           identifier: tag2
       - tag:
+          name: tag10
+          identifier: tag10
+      - tag:
+          name: tag7
+          identifier: tag7
+      - tag:
+          name: tag13
+          identifier: tag13
+      - tag:
+          name: tag15
+          identifier: tag15
+      - tag:
           name: tag4
           identifier: tag4
+      - tag:
+          name: tag14
+          identifier: tag14
       - tag:
           name: tag5
           identifier: tag5
