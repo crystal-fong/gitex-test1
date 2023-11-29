@@ -60,6 +60,10 @@ featureFlags:
             op: segmentMatch
             values:
             - test
+        targetRules:
+        - targets:
+          - identifier: f
+          variation: "true"
   - flag:
       name: re
       identifier: re
@@ -102,5 +106,9 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: f
+          variation: "true"
   projectIdentifier: crystaltest
   orgIdentifier: default
