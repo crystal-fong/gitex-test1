@@ -106,6 +106,15 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+        rules:
+        - priority: 1
+          serve:
+            serveVariation: "true"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - test
         targetRules:
         - targets:
           - identifier: f
