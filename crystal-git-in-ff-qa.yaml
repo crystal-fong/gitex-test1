@@ -94,62 +94,8 @@ featureFlags:
           value: "false"
       tags:
       - tag:
-          name: tag87
-          identifier: tag87
-      - tag:
-          name: tag92
-          identifier: tag92
-      - tag:
-          name: tag83
-          identifier: tag83
-      - tag:
-          name: tag95
-          identifier: tag95
-      - tag:
-          name: tag90
-          identifier: tag90
-      - tag:
-          name: tag88
-          identifier: tag88
-      - tag:
-          name: tag97
-          identifier: tag97
-      - tag:
-          name: tag94
-          identifier: tag94
-      - tag:
-          name: tag84
-          identifier: tag84
-      - tag:
-          name: tag81
-          identifier: tag81
-      - tag:
-          name: tag91
-          identifier: tag91
-      - tag:
-          name: tag86
-          identifier: tag86
-      - tag:
-          name: tag82
-          identifier: tag82
-      - tag:
-          name: tag85
-          identifier: tag85
-      - tag:
-          name: tag100
-          identifier: tag100
-      - tag:
-          name: tag93
-          identifier: tag93
-      - tag:
-          name: tag99
-          identifier: tag99
-      - tag:
-          name: tag96
-          identifier: tag96
-      - tag:
-          name: tag98
-          identifier: tag98
+          name: november30
+          identifier: november30
       environments:
       - identifier: env1
         default:
