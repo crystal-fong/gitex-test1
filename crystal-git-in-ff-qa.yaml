@@ -21,6 +21,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "on"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: flag2
       identifier: flag2
@@ -45,6 +50,11 @@ featureFlags:
           identifier: newONE
       environments:
       - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
         default:
           onVariation: "false"
           offVariation: "false"
@@ -77,6 +87,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   - flag:
       name: 28nov
       identifier: nov
@@ -98,6 +113,11 @@ featureFlags:
           identifier: november30
       environments:
       - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
         default:
           onVariation: "false"
           offVariation: "false"
@@ -174,5 +194,10 @@ featureFlags:
           - identifier: tg4
           - identifier: tg2
           variation: "true"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: crystalgit
   orgIdentifier: default
