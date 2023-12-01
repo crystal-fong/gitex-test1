@@ -41,6 +41,16 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: qwe
         default:
           onVariation: "false"
@@ -90,6 +100,16 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
         default:
           onVariation: "false"
           offVariation: "false"
@@ -147,6 +167,16 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: qwe
         default:
           onVariation: "false"
@@ -193,6 +223,16 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
         default:
           onVariation: "false"
           offVariation: "false"
@@ -290,6 +330,16 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
         default:
           onVariation: "false"
           offVariation: "false"
