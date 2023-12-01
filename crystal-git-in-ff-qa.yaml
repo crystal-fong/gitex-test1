@@ -31,6 +31,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: qwe
         default:
           onVariation: "false"
@@ -70,6 +75,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
         default:
           onVariation: "false"
           offVariation: "false"
@@ -117,6 +127,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: qwe
         default:
           onVariation: "false"
@@ -153,6 +168,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
         default:
           onVariation: "false"
           offVariation: "false"
@@ -240,6 +260,11 @@ featureFlags:
           offVariation: "false"
         state: "off"
       - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
         default:
           onVariation: "false"
           offVariation: "false"
