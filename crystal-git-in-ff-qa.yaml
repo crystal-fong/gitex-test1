@@ -21,6 +21,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "on"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: env2
         default:
           onVariation: "false"
@@ -90,6 +95,11 @@ featureFlags:
           identifier: newONE
       environments:
       - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
         default:
           onVariation: "false"
           offVariation: "false"
@@ -167,6 +177,11 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: env2
         default:
           onVariation: "false"
@@ -233,6 +248,11 @@ featureFlags:
           identifier: november30
       environments:
       - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
         default:
           onVariation: "false"
           offVariation: "false"
@@ -354,6 +374,11 @@ featureFlags:
           - identifier: tg4
           - identifier: tg2
           variation: "true"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: env2
         default:
           onVariation: "false"
