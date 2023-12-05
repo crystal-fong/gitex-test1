@@ -242,10 +242,6 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
-      tags:
-      - tag:
-          name: november30
-          identifier: november30
       environments:
       - identifier: env1
         default:
