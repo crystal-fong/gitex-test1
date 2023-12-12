@@ -1,4 +1,4 @@
-kjhnjkmnfeatureFlags:
+featureFlags:
   flags:
   - flag:
       name: another flag
@@ -24,7 +24,7 @@ kjhnjkmnfeatureFlags:
   - flag:
       name: allowed flag
       identifier: another_flag2
-      description: has tag2 and tag4 20:11
+      description: has tag2 and tag4 20:12
       permanent: false
       spec:
         type: boolean
