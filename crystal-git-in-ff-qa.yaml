@@ -1,8 +1,8 @@
 featureFlags:
   flags:
   - flag:
-      name: flag1
-      identifier: flag1
+      name: april
+      identifier: april
       description: ""
       permanent: false
       spec:
@@ -20,8 +20,8 @@ featureFlags:
         default:
           onVariation: "false"
           offVariation: "false"
-        state: "on"
-      - identifier: env10
+        state: "off"
+      - identifier: qwe
         default:
           onVariation: "false"
           offVariation: "false"
@@ -66,7 +66,431 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "true"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - tg1
+  - flag:
+      name: feb
+      identifier: feb
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag1
+      identifier: flag1
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "on"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag10
+      identifier: flag10
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag11
+      identifier: flag11
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag12
+      identifier: flag12
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
         default:
           onVariation: "false"
           offVariation: "false"
@@ -99,7 +523,7 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
-      - identifier: env10
+      - identifier: qwe
         default:
           onVariation: "false"
           offVariation: "false"
@@ -144,7 +568,584 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag3
+      identifier: flag3
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag4
+      identifier: flag4
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag5
+      identifier: flag5
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag6
+      identifier: flag6
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag7
+      identifier: flag7
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag8
+      identifier: flag8
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: flag9
+      identifier: flag9
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
         default:
           onVariation: "false"
           offVariation: "false"
@@ -166,18 +1167,18 @@ featureFlags:
           value: "false"
       tags:
       - tag:
-          name: november27
-          identifier: november27
-      - tag:
           name: hi
           identifier: hi
+      - tag:
+          name: november27
+          identifier: november27
       environments:
       - identifier: env1
         default:
           onVariation: "false"
           offVariation: "false"
         state: "off"
-      - identifier: env10
+      - identifier: qwe
         default:
           onVariation: "false"
           offVariation: "false"
@@ -222,14 +1223,24 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
-      - identifier: qwe
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
         default:
           onVariation: "false"
           offVariation: "false"
         state: "off"
   - flag:
-      name: 28nov
-      identifier: nov
+      name: january
+      identifier: january
       description: ""
       permanent: false
       spec:
@@ -248,7 +1259,7 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
-      - identifier: env10
+      - identifier: qwe
         default:
           onVariation: "false"
           offVariation: "false"
@@ -293,7 +1304,207 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            distribution:
+              bucketBy: identifier
+              variations:
+              - weight: 50
+                variation: "true"
+              - weight: 50
+                variation: "false"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - tg1
+  - flag:
+      name: march
+      identifier: march
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "false"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - tg1
+  - flag:
+      name: 28nov
+      identifier: nov
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      tags:
+      - tag:
+          name: '@'
+          identifier: '@'
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
         default:
           onVariation: "false"
           offVariation: "false"
@@ -315,14 +1526,17 @@ featureFlags:
           value: "false"
       tags:
       - tag:
-          name: november27
-          identifier: november27
+          name: tag2
+          identifier: tag2
       - tag:
-          name: tag12
-          identifier: tag12
+          name: tag4
+          identifier: tag4
       - tag:
-          name: tag11
-          identifier: tag11
+          name: tag6
+          identifier: tag6
+      - tag:
+          name: tag7
+          identifier: tag7
       - tag:
           name: tag8
           identifier: tag8
@@ -330,32 +1544,29 @@ featureFlags:
           name: tag9
           identifier: tag9
       - tag:
-          name: tag6
-          identifier: tag6
-      - tag:
-          name: tag2
-          identifier: tag2
-      - tag:
           name: tag10
           identifier: tag10
       - tag:
-          name: hi
-          identifier: hi
+          name: tag11
+          identifier: tag11
       - tag:
-          name: tag7
-          identifier: tag7
+          name: tag12
+          identifier: tag12
       - tag:
           name: tag13
           identifier: tag13
       - tag:
+          name: tag14
+          identifier: tag14
+      - tag:
           name: tag15
           identifier: tag15
       - tag:
-          name: tag4
-          identifier: tag4
+          name: november27
+          identifier: november27
       - tag:
-          name: tag14
-          identifier: tag14
+          name: hi
+          identifier: hi
       environments:
       - identifier: env1
         default:
@@ -364,10 +1575,10 @@ featureFlags:
         state: "off"
         targetRules:
         - targets:
-          - identifier: tg4
           - identifier: tg2
+          - identifier: tg4
           variation: "true"
-      - identifier: env10
+      - identifier: qwe
         default:
           onVariation: "false"
           offVariation: "false"
@@ -412,7 +1623,98 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
+      name: testt
+      identifier: testt
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
       - identifier: qwe
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env2
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env3
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env4
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env5
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env6
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env7
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env8
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env9
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env10
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: env11
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+      - identifier: jan
         default:
           onVariation: "false"
           offVariation: "false"
