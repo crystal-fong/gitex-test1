@@ -42,6 +42,10 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: t2
+          variation: "true"
   - flag:
       name: 7thnov
       identifier: thnov
@@ -63,6 +67,10 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: t2
+          variation: "false"
   - flag:
       name: 8thNov
       identifier: thNov
