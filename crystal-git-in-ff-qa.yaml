@@ -81,6 +81,10 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: t1
+          variation: "true"
   - flag:
       name: feb
       identifier: feb
@@ -1415,6 +1419,10 @@ featureFlags:
             op: segmentMatch
             values:
             - tg1
+        targetRules:
+        - targets:
+          - identifier: t1
+          variation: "false"
   - flag:
       name: 28nov
       identifier: nov
