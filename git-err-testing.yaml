@@ -1,0 +1,19 @@
+featureFlags:
+  flags:
+  - flag:
+      name: ff1
+      identifier: ff1
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+  projectIdentifier: crystalgiterrortesting
+  orgIdentifier: default
