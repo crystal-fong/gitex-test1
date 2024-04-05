@@ -166,6 +166,10 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+        targetRules:
+        - targets:
+          - identifier: t1
+          variation: "true"
   - flag:
       name: flag1
       identifier: flag1
