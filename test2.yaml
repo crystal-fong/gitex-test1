@@ -21,6 +21,15 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "true"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - tg1
         targetRules:
         - targets:
           - identifier: ios_users
