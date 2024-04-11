@@ -1511,7 +1511,7 @@ featureFlags:
         default:
           onVariation: "false"
           offVariation: "false"
-        state: "off"
+        state: "on"
   - flag:
       name: sfsdfdsdfs
       identifier: sfsdfdsdfs
