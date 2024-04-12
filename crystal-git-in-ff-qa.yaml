@@ -1413,7 +1413,7 @@ featureFlags:
         default:
           onVariation: "false"
           offVariation: "false"
-        state: "on"
+        state: "off"
         rules:
         - priority: 0
           serve:
