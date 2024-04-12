@@ -80,18 +80,18 @@ featureFlags:
           name: tag4
           identifier: tag4
       prerequisites:
-      - flagIdentifier: flag_test_with_tag2
-        variations:
-        - "false"
       - flagIdentifier: no_tag_flag
         variations:
         - "false"
       - flagIdentifier: another_flag2
         variations:
-        - "true"
+        - "false"
       - flagIdentifier: danflag2
         variations:
-        - "true"
+        - "false"
+      - flagIdentifier: flag_test_with_tag2
+        variations:
+        - "false"
       environments:
       - identifier: env1
         default:
