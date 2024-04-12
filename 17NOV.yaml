@@ -49,6 +49,64 @@ featureFlags:
           onVariation: "false"
           offVariation: "false"
         state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "false"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - test
+  - flag:
+      name: colors
+      identifier: colors
+      description: ""
+      permanent: false
+      spec:
+        type: string
+        default:
+          onVariation: Blue
+          offVariation: Red
+        variations:
+        - identifier: Blue
+          value: blue
+        - identifier: Yellow
+          value: yellow
+        - identifier: Red
+          value: red
+      tags:
+      - tag:
+          name: tag4
+          identifier: tag4
+      prerequisites:
+      - flagIdentifier: danflag2
+        variations:
+        - "true"
+      - flagIdentifier: flag_test_with_tag2
+        variations:
+        - "false"
+      - flagIdentifier: no_tag_flag
+        variations:
+        - "true"
+      - flagIdentifier: another_flag2
+        variations:
+        - "true"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: Blue
+          offVariation: Red
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: Blue
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - test
   - flag:
       name: dan-flag
       identifier: danflag
@@ -186,27 +244,6 @@ featureFlags:
   - flag:
       name: no_tag_flag
       identifier: no_tag_flag
-      description: ""
-      permanent: false
-      spec:
-        type: boolean
-        default:
-          onVariation: "false"
-          offVariation: "false"
-        variations:
-        - identifier: "true"
-          value: "true"
-        - identifier: "false"
-          value: "false"
-      environments:
-      - identifier: env1
-        default:
-          onVariation: "false"
-          offVariation: "false"
-        state: "off"
-  - flag:
-      name: test
-      identifier: test
       description: ""
       permanent: false
       spec:
