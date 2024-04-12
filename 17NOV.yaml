@@ -80,9 +80,6 @@ featureFlags:
           name: tag4
           identifier: tag4
       prerequisites:
-      - flagIdentifier: danflag2
-        variations:
-        - "true"
       - flagIdentifier: flag_test_with_tag2
         variations:
         - "false"
@@ -92,12 +89,15 @@ featureFlags:
       - flagIdentifier: another_flag2
         variations:
         - "true"
+      - flagIdentifier: danflag2
+        variations:
+        - "true"
       environments:
       - identifier: env1
         default:
           onVariation: Blue
           offVariation: Red
-        state: "off"
+        state: "on"
         rules:
         - priority: 0
           serve:
