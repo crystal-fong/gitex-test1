@@ -84,7 +84,7 @@ featureFlags:
         targetRules:
         - targets:
           - identifier: t1
-          variation: "true"
+          variation: "false"
   - flag:
       name: feb
       identifier: feb
