@@ -85,7 +85,7 @@ featureFlags:
         - "false"
       - flagIdentifier: no_tag_flag
         variations:
-        - "true"
+        - "false"
       - flagIdentifier: another_flag2
         variations:
         - "true"
