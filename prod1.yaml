@@ -1,0 +1,104 @@
+featureFlags:
+  flags:
+  - flag:
+      name: 128AGAINipflvqiyavpuddbhqosvfzbdtsjogwglnbrpyipmhxickxstxwgiacebrzdqeitmibueftkrfotdjmntnsggediykjiijnuisrbbacajohbrfgoyqgmaoie
+      identifier: AGAINipflvqiyavpuddbhqosvfzbdtsjogwglnbrpyipmhxickxstxwgiacebrzdqeitmibueftkrfotdjmntnsggediykjiijnuisrbbacajohbrfgoyqgmaoie
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            distribution:
+              bucketBy: identifier
+              variations:
+              - weight: 50
+                variation: "true"
+              - weight: 50
+                variation: "false"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - tg1
+  - flag:
+      name: 128flagcrwfipflvqiyavpuddbhqosvfzbdtsjogwglnbrpyipmhxickxstxwgiacebrzdqeitmiftkrfotdjmntnsggediykjiijnuisrbbacajohbrfgoyqgmaoie
+      identifier: flagcrwfipflvqiyavpuddbhqosvfzbdtsjogwglnbrpyipmhxickxstxwgiacebrzdqeitmiftkrfotdjmntnsggediykjiijnuisrbbacajohbrfgoyqgmaoie
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "false"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - tg1
+  - flag:
+      name: test
+      identifier: test
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: env1
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "true"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - tg1
+        targetRules:
+        - targets:
+          - identifier: 128frcrwfipflvqiyavpuddbhqosvfzbdtsjogwglnbrpyipmhxickxstxwgiacebrzdqeitmibueftkrfotdjmntnsggediykjiijnuisrbbacajohbrfgoyqgmaoie
+          variation: "true"
+  projectIdentifier: crystaltest
+  orgIdentifier: default
