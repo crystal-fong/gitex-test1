@@ -1,0 +1,38 @@
+featureFlags:
+  flags:
+  - flag:
+      name: ff1
+      identifier: ff1
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: nonprod
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+        rules:
+        - priority: 0
+          serve:
+            serveVariation: "true"
+          clauses:
+          - attribute: ""
+            op: segmentMatch
+            values:
+            - tg1
+        targetRules:
+        - targets:
+          - identifier: ios_users
+          variation: "false"
+  projectIdentifier: crystalgiterrortesting
+  orgIdentifier: default
